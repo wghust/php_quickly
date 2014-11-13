@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	width: 100%;
+}
+body {
+	background-color: #E6E6E6;
+}
+.loginform {
+	margin: 0 auto;
+	margin-top: 150px;
+	width: 400px;
+/* 	height: 250px; */
+	background-color: white;
+ 	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3); 
+	padding: 20px 10px;
+	border-radius: 15px;
+}
+.loginform h1 {
+	font-family: 微软雅黑;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	opacity: 0.5;
+}
+.loginform label {
+	font-family: 微软雅黑;
+	margin-left: 80px;
+	/*margin-right: 10px;*/
+	/*display: block;*/
+	width: 50px;
+	height: 25px;
+	opacity: 0.8;
+	font-size: 16px;
+}
+.loginform .username {
+/* 	height: 25px; */
+	width: 150px;
+	font-size: 12px;
+/* 	line-height: 25px; */
+	border: 1px solid #E6E6E6;
+/* 	box-shadow: 0 0 2px #E6E6E6; */
+	outline: 0;
+	border-radius: 20px;
+	padding: 5px 15px;
+}
+.loginform .username:hover {
+/* 	box-shadow: 0 0 2px blue; */
+	border:1px solid #3592DD;
+}
+.loginform .email {
+/* 	height: 25px; */
+	width: 150px;
+	font-size: 12px;
+/* 	line-height: 25px; */
+	border: 1px solid #E6E6E6;
+/* 	box-shadow: 0 0 2px #E6E6E6; */
+	outline: 0;
+	border-radius: 20px;
+	padding: 5px 15px;
+}
+.loginform .email:hover {
+/* 	box-shadow: 0 0 2px blue; */
+	border: 1px solid #3592DD;
+}
+.loginform .password {
+/* 	height: 25px; */
+	width: 150px;
+	font-size: 12px;
+/* 	line-height: 25px; */
+	border: 1px solid #E6E6E6;
+/* 	box-shadow: 0 0 2px #E6E6E6; */
+	outline: 0;
+	border-radius: 20px;
+	padding: 5px 15px;
+}
+.loginform .password:hover {
+/* 	box-shadow: 0 0 2px blue; */
+	border: 1px solid #3592DD;
+}
+.loginform .loginsubmit {
+	margin-left: 150px;
+	padding: 5px 20px;
+	border: 1px solid #E6E6E6;
+	background-color: transparent;
+	color: black;
+	cursor: pointer;
+/* 	margin-bottom: 10px; */
+	outline: 0;
+	border-radius: 20px;
+/* 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); */
+}
+.loginform .loginsubmit:hover {
+	background-color: blue;
+	border: 1px solid blue;
+	color: white;
+}
+.warn {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 420px;
+	/*height: 250px;*/
+	/*padding-top: 10px;
+	padding-bottom: 10px;*/
+	background-color: white;
+	border-radius: 10px;
+	/*box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);*/
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3); 
+/* 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); */
+}
+.warn .warn_word {
+	color: red;
+	margin-left: 20px;
+	width: 360px;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 微软雅黑;
+}
+.warn_word a {
+	color: blue;
+	text-decoration: none;
+	margin-left: 5px;
+}

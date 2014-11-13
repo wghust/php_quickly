@@ -1,0 +1,237 @@
+* {
+	font-family: 'Open Sans','Helvetica Neue','Arial','Verdana','Lantinghei TC','Hiragino Kaku Gothic ProN','Heiti TC','Microsoft Yahei',sans-serif;
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Open Sans','Helvetica Neue','Arial','Verdana','Lantinghei TC','Hiragino Kaku Gothic ProN','Heiti TC','Microsoft Yahei',sans-serif;
+	font-weight: normal;
+}
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #f2f2f2;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+input[type=text] {
+	border:1px solid #f2f2f2;
+	outline: 0;
+	height: 25px;
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 20px;
+}
+input[type=text]:hover {
+	border: 1px solid #4A90E2;
+}
+input[type=text]:focus {
+	border: 1px solid #4A90E2;
+}
+
+input[type=password] {
+	border:1px solid #f2f2f2;
+	outline: 0;
+	height: 25px;
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 20px;
+}
+input[type=password]:hover {
+	border: 1px solid #4A90E2;
+}
+input[type=password]:focus {
+	border: 1px solid #4A90E2;
+}
+
+input[type=submit] {
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-color: #5bb793;
+	color: white;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	outline: 0;
+}
+input[type=submit]:hover {
+	box-shadow: none;
+}
+input[type=button] {
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-color: #5bb793;
+	color: white;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	outline: 0;
+}
+input[type=button]:hover {
+	box-shadow: none;
+}
+.abtn {
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-color: #5bb793;
+	color: white;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	outline: 0;
+	padding: 3px 5px;
+}
+.abtn:hover {
+	box-shadow: none;
+	color:white;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 1278px;
+	max-width: 1278px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*header*/
+.header {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	left: 0;
+	background-color: #4A90E2;
+	z-index: 20;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+.username {
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	color: white;
+	font-size: 24px;
+}
+.username a.user_name {
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+}
+.username a.user_out {
+	font-size: 12px;
+	margin-left: 10px;
+	/*color: #f2f2f2;*/
+	color: white;
+	/*display: block;*/
+	/*float: left;*/
+}
+
+/*权限*/
+.qx {
+	float: left;
+	width: 60px;
+	min-height: 50px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.qx span {
+	display: block;;
+	width: 60px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 14px;
+	border:1px solid white;
+	color: white;
+	cursor: pointer;
+}
+.qx ul {
+	background-color: white;
+	margin-top: 0px;
+	width: 100px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: none;
+	opacity: 0;
+}
+.qx ul li {
+	color: black;
+	width: 100px;
+	text-align: center;
+	font-size: 12px;
+}
+.qx ul li a {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: black;
+}
+.qx ul li a:hover {
+	color: white;
+	background-color: #4A90E2;
+	text-decoration: none;
+}
+
+/*搜索*/
+.search {
+	height: 50px;
+	float: right;
+	line-height: 50px;
+}
+.search input {
+	/*height: 20px;
+	border:1px solid white;
+	outline: 0;
+	padding-left: 10px;
+	padding-right: 10px;*/
+	/*margin-top: 15px;*/
+}
+
+.topover {
+	position: relative;
+	width: 100%;
+	height: 100px;
+}
+/*section*/
+.section {
+	position: relative;
+	width: 100%;
+	/*height: 200px;*/
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+.section .s_title {
+	width: 96%;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.section .s_con {
+	width: 96%;
+	position: relative;
+	margin: 0 auto;
+}
+.section .s_foot {
+	margin-top: 10px;
+}
+/*.one_block {
+	width: 100%;
+	border: 1px solid #f2f2f2;
+	height: 100px;
+	margin-bottom: 20px;
+}*/
