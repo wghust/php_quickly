@@ -6,10 +6,10 @@
     sys文件夹用于系统调用。
 
     public文件夹下包括三部分
-    第一部分是静态文件，类似index.html,而index.php用于跳转路由，
-    如果只是静态文件就不用了。
-    第二部分是assets文件夹，用于放置css，js，images等文件
-    第三部分是php等后台文件放置地址。用于静态文件与后台的ajax交互。
+        第一部分是静态文件，类似index.html,而index.php用于跳转路由，
+        如果只是静态文件就不用了。
+        第二部分是assets文件夹，用于放置css，js，images等文件
+        第三部分是php等后台文件放置地址。用于静态文件与后台的ajax交互。
 
     sys文件夹下包括三部分
       class文件夹，用于与数据库交互
